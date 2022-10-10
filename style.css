@@ -1,6 +1,10 @@
+body {
+    background-color: black;
+}
+
 .container {
     font-size: 1.5rem;
-    color: blue;
+    color: white;
     text-align: center;
     display: flex;
     height: 80vh;
@@ -11,7 +15,7 @@
 .container a {
     text-decoration: none;
     padding-right: 10px;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
 }
 
 .container a:last-of-type {
@@ -19,5 +23,5 @@
 }
 
 .container a:visited {
-    color: blue;
+    color: white;
 }
