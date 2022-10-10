@@ -1,0 +1,23 @@
+.container {
+    font-size: 1.5rem;
+    color: blue;
+    text-align: center;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container a {
+    text-decoration: none;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+.container a:last-of-type {
+    border-right: none;
+}
+
+.container a:visited {
+    color: blue;
+}
