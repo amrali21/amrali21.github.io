@@ -1,12 +1,13 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	outline: none;
 	box-sizing: border-box;
 }
+
 html {
 	font-size: 16px;
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
 .wrapper {
@@ -28,7 +29,7 @@ html {
 
 #sec1 nav {
 	background-color: #161F28;
-	color:#fff;
+	color: #fff;
 }
 
 #sec1 nav div {
@@ -38,22 +39,22 @@ html {
 	flex-wrap: wrap;
 }
 
-#sec1 nav a{
+#sec1 nav a {
 	display: block;
 	color: #fff;
 	text-decoration: none;
 	padding: 10px 0;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	text-align: center;
-	border-bottom: thin solid #cccccc2b;	
+	border-bottom: thin solid #cccccc2b;
 	font-size: 0.9rem;
 }
 
-#sec1 nav li:last-of-type a{
-	border-bottom: none;	
+#sec1 nav li:last-of-type a {
+	border-bottom: none;
 }
 
-#sec1 nav a:hover{
+#sec1 nav a:hover {
 	background-color: #cccccc2b;
 }
 
@@ -70,18 +71,20 @@ html {
 #sec1 nav input:checked+ul {
 	display: block;
 }
+
 #sec1 nav div {
 	padding: 10px 0;
 }
 
-#sec1 nav label{
+#sec1 nav label {
 	display: inline-block;
 	font-size: 25px;
-	border:thin solid #fff;
+	border: thin solid #fff;
 	border-radius: 4px;
 	padding: 6px 6px 2px;
 	cursor: pointer;
 }
+
 #sec1 nav label:hover {
 	color: yellowgreen;
 	border-color: yellowgreen;
@@ -93,7 +96,7 @@ html {
 }
 
 #sec1 h1 span {
-	color:#FB8E00;
+	color: #FB8E00;
 }
 
 /* section 2 */
@@ -101,7 +104,7 @@ html {
 #sec2 {
 	background: #EDEFF1 url('../images/Banner-bg.jpg') no-repeat;
 	background-size: auto 90%;
-	padding:20px 0;
+	padding: 20px 0;
 }
 
 #sec2 aside h1 {
@@ -126,6 +129,7 @@ html {
 	margin-bottom: 15px;
 	text-align: justify;
 }
+
 #sec2 aside a {
 	display: inline-block;
 	font-size: 0.7rem;
@@ -151,7 +155,7 @@ html {
 }
 
 #sec2 figure figcaption {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	color: #fff;
 	position: absolute;
 	bottom: 0;
@@ -182,7 +186,7 @@ html {
 	font-weight: 600;
 }
 
-#sec2 figure figcaption div:first-of-type i{
+#sec2 figure figcaption div:first-of-type i {
 	border: 2px solid #fff;
 	border-radius: 50%;
 	padding: 8px;
@@ -190,7 +194,7 @@ html {
 	font-weight: bold;
 }
 
-#sec2 figure figcaption div:first-of-type i:last-of-type{
+#sec2 figure figcaption div:first-of-type i:last-of-type {
 	margin-left: 10px;
 }
 
@@ -204,14 +208,14 @@ html {
 
 #about h1 {
 	text-transform: uppercase;
-	color:#000;
+	color: #000;
 	font-size: 3rem;
 	font-weight: 400;
 	margin-bottom: 10px;
 }
 
 #about p {
-	color:#999;
+	color: #999;
 	font-size: 0.9rem;
 	margin-bottom: 30px;
 	text-align: justify;
@@ -223,17 +227,17 @@ html {
 }
 
 #about nav a {
-	display:inline-block;
+	display: inline-block;
 	font-size: 0.8rem;
 	color: #9DA2B0;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 7px 12px;
-	border:thin solid #9DA2B0;
+	border: thin solid #9DA2B0;
 	font-weight: 400;
 }
 
-#about nav a:nth-last-of-type(2){
+#about nav a:nth-last-of-type(2) {
 	border-left: none;
 	border-right: none;
 }
@@ -244,26 +248,26 @@ html {
 	border-color: #FF9408;
 }
 
-#about .wrapper>div:last-of-type aside{
+#about .wrapper>div:last-of-type aside {
 	position: relative;
 	margin: 30px auto 50px;
 	max-width: 378px;
 }
 
-#about .wrapper>div:last-of-type img{
+#about .wrapper>div:last-of-type img {
 	max-width: 90%;
 	height: auto;
 	position: absolute;
-	top: 20px; 
+	top: 20px;
 	left: 0;
-	border:thin solid #ccc;
+	border: thin solid #ccc;
 	border-radius: 2px;
 	padding: 5px;
 	background-color: #fff;
 	box-shadow: 0px 5px 10px 2px #000;
 }
 
-#about .wrapper>div:last-of-type img:first-of-type{
+#about .wrapper>div:last-of-type img:first-of-type {
 	position: static;
 }
 
@@ -289,7 +293,7 @@ html {
 #services {
 	padding: 30px 0;
 	text-align: center;
-	color:#fff;
+	color: #fff;
 	background: url('../images/Services-bg.jpg') no-repeat;
 	background-size: cover;
 }
@@ -307,7 +311,7 @@ html {
 	text-align: justify;
 }
 
-#services article{
+#services article {
 	max-width: 245px;
 	height: 387px;
 	margin-left: auto;
@@ -315,12 +319,13 @@ html {
 	padding-top: 185px;
 	text-transform: uppercase;
 	font-size: 1rem;
-	color: rgba(255,255,255,0.3);
-	transition: 0.5s all ease; 
+	color: rgba(255, 255, 255, 0.3);
+	transition: 0.5s all ease;
 	margin-bottom: 10px;
 }
-#services article:hover{
-	color: rgba(255,255,255,1);
+
+#services article:hover {
+	color: rgba(255, 255, 255, 1);
 }
 
 #services .card1 {
@@ -369,7 +374,7 @@ html {
 #pricing {
 	padding: 30px 0;
 	text-align: center;
-	color:#000;
+	color: #000;
 	background: #ECECEC;
 }
 
@@ -417,47 +422,48 @@ html {
 	font-weight: 500;
 }
 
-#pricing ul:first-of-type li:nth-of-type(2){
+#pricing ul:first-of-type li:nth-of-type(2) {
 	background-color: #2D2D2D;
-	color:#FF9408;
+	color: #FF9408;
 	flex-grow: 3;
 }
 
 
-#pricing ul:nth-of-type(2){
+#pricing ul:nth-of-type(2) {
 	background-color: #fff;
 	color: #999;
 	font-size: 0.8rem;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	
+
 }
 
-#pricing ul:nth-of-type(2) li{
+#pricing ul:nth-of-type(2) li {
 	line-height: 15px;
-	flex-grow: 1;
+	/* flex-grow: 1; */
+	flex-basis: 50%;
 	border-right: 1px solid #999;
 	height: 32px;
 }
 
 #pricing ul:nth-of-type(2) li:last-of-type {
-		border-right: none;
+	border-right: none;
 
 }
 
-#pricing ul:last-of-type{
+#pricing ul:last-of-type {
 	background-color: #2D2D2D;
 }
 
-#pricing ul:last-of-type li{
+#pricing ul:last-of-type li {
 	flex-grow: 1;
 }
 
-#pricing ul:last-of-type a{
+#pricing ul:last-of-type a {
 	display: block;
 	font-size: 0.7rem;
 	font-weight: 500;
-	color:#fff;
+	color: #fff;
 	text-decoration: none;
 	text-align: center;
 }
@@ -471,7 +477,7 @@ html {
 #contact {
 	padding: 30px 0 10px;
 	text-align: center;
-	color:#fff;
+	color: #fff;
 	background: url('../images/Contact-bg.jpg') no-repeat;
 }
 
@@ -500,12 +506,13 @@ html {
 #intouch aside {
 	margin-bottom: 30px;
 }
+
 #intouch h1 {
 	text-transform: uppercase;
 	font-size: 2rem;
 	font-weight: 400;
 	margin-bottom: 30px;
-	color:#E2850A;
+	color: #E2850A;
 }
 
 #intouch article {
@@ -519,7 +526,7 @@ html {
 	padding-right: 20px;
 }
 
-#intouch article ul{
+#intouch article ul {
 	list-style-type: none;
 	font-size: 0.9rem;
 }
@@ -537,9 +544,10 @@ html {
 #intouch form * {
 	padding: 10px;
 	margin-bottom: 10px;
-	border:none;
+	border: none;
 	border-radius: 2px;
 }
+
 #intouch form textarea {
 	margin-bottom: 15px;
 	height: 100px;
@@ -554,7 +562,7 @@ html {
 /* footer */
 
 footer {
-	padding: 30px  0; 
+	padding: 30px 0;
 	color: #999;
 	background: url('../images/Contact-bg.jpg') no-repeat;
 	text-align: center;
@@ -564,77 +572,83 @@ footer {
 
 
 /*  Extra small devices (portrait phones, less than 576px) 
-      No media query since this is the default if you use "mobile first" */ 
+      No media query since this is the default if you use "mobile first" */
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
-	#services .wrapper:nth-of-type(2){
+@media (min-width: 576px) {
+	#services .wrapper:nth-of-type(2) {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
-	#services article{
+
+	#services article {
 		width: 50%;
 	}
+
 	#services p {
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	
+
 	#contact p {
 		text-align: center;
 	}
 }
+
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 	.wrapper {
 		max-width: 720px;
 	}
-	
+
 	#sec1 nav div {
 		flex-wrap: nowrap;
 		padding: 0;
 	}
-	
-	#sec1 nav label{
+
+	#sec1 nav label {
 		display: none;
 	}
-	
-	#sec1 nav ul, nav input:checked+ul  {
+
+	#sec1 nav ul,
+	nav input:checked+ul {
 		display: flex !important;
 		justify-content: flex-end;
 	}
-	
+
 	#sec1 nav ul li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	
+
 	#sec1 nav a {
 		border-bottom: 5px solid transparent !important;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	#sec1 nav a:hover{
+
+	#sec1 nav a:hover {
 		border-bottom: 5px solid #FB8E00 !important;
 		background-color: #355273;
 	}
-	
+
 	#pricing article {
 		display: flex;
 		flex-wrap: wrap;
 	}
+
 	#pricing article ul:first-of-type {
 		flex-basis: 75%;
 		order: 2;
 	}
-	
+
 	#pricing article ul:nth-of-type(2) {
 		flex-basis: 100%;
 		order: 3;
 	}
-	
+
 	#pricing article ul:last-of-type {
 		flex-basis: 25%;
 		order: 2;
@@ -642,54 +656,58 @@ footer {
 	}
 
 }
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.wrapper {
 		max-width: 940px;
 	}
-	
+
 	#sec2 .wrapper {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding-top: 80px;
 	}
-	#sec2 .wrapper aside{
-		width:33%;
+
+	#sec2 .wrapper aside {
+		width: 33%;
 	}
 
-	#sec2 .wrapper figure{
-		width:66%
+	#sec2 .wrapper figure {
+		width: 66%
 	}
-	
-	#about div:nth-of-type(2){
+
+	#about div:nth-of-type(2) {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
 		margin-top: 50px;
 	}
-	
+
 	#about .wrapper>p {
 		text-align: center;
 	}
-	
-	#about .wrapper>div:last-of-type aside{
+
+	#about .wrapper>div:last-of-type aside {
 		width: 35%;
 		margin: 0px auto 50px
 	}
-	
-	#about div:nth-of-type(2) article{
+
+	#about div:nth-of-type(2) article {
 		width: 55%;
 	}
-	
-	#about div:nth-of-type(2) article h1, #about div:nth-of-type(2) article h3 {
+
+	#about div:nth-of-type(2) article h1,
+	#about div:nth-of-type(2) article h3 {
 		text-align: left;
 	}
-	
-	#services .wrapper:nth-of-type(2){
+
+	#services .wrapper:nth-of-type(2) {
 		flex-wrap: nowrap;
 	}
-	#services article{
+
+	#services article {
 		flex-basis: 23%;
 	}
 
@@ -698,64 +716,66 @@ footer {
 		justify-content: space-between;
 		align-items: center;
 	}
-	
-	#intouch .wrapper form{
+
+	#intouch .wrapper form {
 		order: 1;
 		flex-basis: 47%;
 	}
-	
-	#intouch .wrapper aside{
+
+	#intouch .wrapper aside {
 		order: 2;
 		flex-basis: 47%;
 
 	}
-	
+
 	#pricing {
 		padding: 60px 0;
 	}
-	
+
 	#pricing p {
 		text-align: center;
 	}
-	
+
 	#pricing article {
 		flex-wrap: nowrap;
 		margin-bottom: 10px;
 	}
-	
+
 	#pricing article ul:first-of-type {
 		flex-basis: 25%;
 		order: 1;
 	}
-	
+
 	#pricing article ul:nth-of-type(2) {
 		flex-basis: 63%;
 		order: 2;
 	}
-	
+
 	#pricing article ul:last-of-type {
 		flex-basis: 12%;
 		order: 3;
 		background-color: #2D2D2D;
 	}
-	
+
 	#pricing article ul:first-of-type li:first-of-type {
-		flex-grow: 1;
+		flex-basis: 30%;
 	}
 
 	#pricing article ul:first-of-type li:nth-of-type(2) {
-		flex-grow: 15;
+		flex-basis: 70%;
 	}
 
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) {
 	.wrapper {
 		max-width: 1160px;
 	}
 
 }
-@media (min-width: 1500px) {  
+
+@media (min-width: 1500px) {
 	#sec2 {
 
 		background-size: 100% 90%;
